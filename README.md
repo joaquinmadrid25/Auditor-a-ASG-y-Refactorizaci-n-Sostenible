@@ -19,8 +19,14 @@ El objetivo de esta auditoría ASG (Ambiental, Social y Gobernanza) es evaluar e
 
 1. La huella de carbono estimada por vista de PageSpeed Insights es de un 81% de Rendimiento, 74% de Accesibilidad, 92% Prácticas recomendadas y 91% de SEO.
 
+<img width="1911" height="941" alt="image" src="https://github.com/user-attachments/assets/019cc936-ea9a-4b95-a020-b48e3bb99942" />
+
 2. He entrado en un navegador de google y le he dado al F12 para ver el Network una vez allí he seleccionado desactivar el caché 
 Luego le he dado al F5 y en la columna size le he dado click para que se ordene de mayor a menor.En las imagenes se puede ver como esta de menor a mayor y de mayor a menor ,ademas el tiempo,el tamaño,etc.
+
+<img width="1919" height="984" alt="image" src="https://github.com/user-attachments/assets/5a09a448-22b1-48c9-9a88-dbdc260bd346" />
+
+<img width="1919" height="963" alt="image" src="https://github.com/user-attachments/assets/c10b14b2-9fa3-4dff-bfee-358e79671bb6" />
 
 1. shared.rollup.js (523kB): libreria de JavaScript de dependencia
 2. p_2x_d075c781870b.png (176kB): imagen de iconos sin optimizar
@@ -32,7 +38,12 @@ Luego le he dado al F5 y en la columna size le he dado click para que se ordene 
 
 1. Para evaluar la accesibilidad se utiliza Lighthouse Accessibility y una revision manual basada en las pautas WCAG 2.2.
 La puntuacion obtenida fue de un 74%, lo que indica que existen barreras importantes para determinados usuarios.
+
+<img width="1911" height="941" alt="image" src="https://github.com/user-attachments/assets/1ad6d950-cb87-41e0-a412-711a5129c431" />
+
 2. En el lighthouse ha detectado 3 errores de accesibilidad:
+
+<img width="1919" height="994" alt="image" src="https://github.com/user-attachments/assets/5b4bc1a8-5dad-496f-8a0f-21544fd9441f" />
 
 Problema 1: Las imagenes no tienen texto alternativo, por lo que un lector de pantalla no puede describirlas a personas con discapacidad visual.
 
